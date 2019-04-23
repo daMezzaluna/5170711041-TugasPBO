@@ -28,4 +28,10 @@ public class Sari extends Sabar {
     void kelamin() {
         System.out.println("Jenis kelamin: Perempuan");
     }
+    
+    //Override tinggi menjadi 160 cm
+    @Override
+    void tinggi(){
+        System.out.println("Tinggi: 160 cm");
+    }
 }
